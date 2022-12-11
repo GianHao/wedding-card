@@ -1,5 +1,23 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/fonts/customFont.scss":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--14-1!./node_modules/postcss-loader/src??embedded!./node_modules/resolve-url-loader??ref--14-3!./node_modules/sass-loader/dist/cjs.js??ref--14-4!./src/assets/fonts/customFont.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(true);
+// Module
+exports.push([module.i, "@font-face {\n  font-family: caveat;\n  src: url('Caveat-SemiBold.ttf') format(\"truetype\");\n}", "",{"version":3,"sources":["customFont.scss"],"names":[],"mappings":"AAAA;EACI,mBAAA;EACA,kDAAA;AACJ","file":"customFont.scss","sourcesContent":["@font-face {\n    font-family: caveat;\n    src: url(\"../fonts/Caveat/static/Caveat-SemiBold.ttf\") format(\"truetype\");\n}"]}]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles.scss":
 /*!*********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--14-1!./node_modules/postcss-loader/src??embedded!./node_modules/resolve-url-loader??ref--14-3!./node_modules/sass-loader/dist/cjs.js??ref--14-4!./src/styles.scss ***!
@@ -11,7 +29,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */", "",{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,8EAAA","file":"styles.scss","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n"]}]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n* {\n  margin: 0;\n  padding: 0;\n}", "",{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,8EAAA;AAEA;EACE,SAAA;EACA,UAAA;AAAF","file":"styles.scss","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n\n* {\n  margin: 0;\n  padding: 0;\n}\n"]}]);
 // Exports
 module.exports = exports;
 
@@ -403,6 +421,35 @@ module.exports = function (list, options) {
 
 /***/ }),
 
+/***/ "./src/assets/fonts/customFont.scss":
+/*!******************************************!*\
+  !*** ./src/assets/fonts/customFont.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--14-1!../../../node_modules/postcss-loader/src??embedded!../../../node_modules/resolve-url-loader??ref--14-3!../../../node_modules/sass-loader/dist/cjs.js??ref--14-4!./customFont.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/fonts/customFont.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
 /***/ "./src/styles.scss":
 /*!*************************!*\
   !*** ./src/styles.scss ***!
@@ -433,13 +480,14 @@ module.exports = content.locals || {};
 /***/ }),
 
 /***/ 2:
-/*!*******************************!*\
-  !*** multi ./src/styles.scss ***!
-  \*******************************/
+/*!******************************************************************!*\
+  !*** multi ./src/styles.scss ./src/assets/fonts/customFont.scss ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/jordantan/Documents/Jordan project/wedding-invitation-card/src/styles.scss */"./src/styles.scss");
+__webpack_require__(/*! /Users/jordantan/Documents/Jordan project/wedding-invitation-card/src/styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! /Users/jordantan/Documents/Jordan project/wedding-invitation-card/src/assets/fonts/customFont.scss */"./src/assets/fonts/customFont.scss");
 
 
 /***/ })
