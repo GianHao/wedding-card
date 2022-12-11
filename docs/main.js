@@ -42,7 +42,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 20, vars: 0, consts: [[1, "container"], [1, "card-container"], [1, "name"], [1, "date"], [1, "location-container"], [1, "address"], [1, "navigation-container"], ["href", "https://waze.com/ul/hw281udn3f", "target", "_blank"], ["src", "../assets/waze.webp", 1, "navigation-icon"], ["href", "https://maps.app.goo.gl/vm5BsxXH8hxh5EKYA?g_st=ic", "target", "_blank"], ["src", "../assets/google-maps.webp", 1, "navigation-icon"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 20, vars: 0, consts: [[1, "container"], [1, "card-container"], [1, "name"], [1, "date"], [1, "location-container"], [1, "address"], [1, "navigation-container"], ["href", "https://waze.com/ul/hw281udn3f", "target", "_blank"], ["src", "/src/assets/waze.webp", 1, "navigation-icon"], ["href", "https://maps.app.goo.gl/vm5BsxXH8hxh5EKYA?g_st=ic", "target", "_blank"], ["src", "/src/assets/google-maps.webp", 1, "navigation-icon"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
